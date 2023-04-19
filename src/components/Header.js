@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import FitbitIcon from "@mui/icons-material/Fitbit";
+import { Link } from "react-scroll";
 
 const theme = createTheme({
   palette: {
@@ -26,15 +27,15 @@ const Header = () => {
       <AppBar
         sx={{
           bgcolor: "#20124D",
-          height: 80,
+          height: 65,
           justifyContent: "center",
           display: "flex",
         }}
-        position="static"
+        // position="static"
       >
         <Toolbar>
-          <FitbitIcon sx={{ fontSize: 24, color: "#fff" }} />
-          <Button href="/" sx={{ fontSize: 25 }}>
+          <FitbitIcon sx={{ fontSize: 23, color: "#fff" }} />
+          <Button href="/" sx={{ fontSize: 23 }}>
             Xercise
           </Button>
 
@@ -50,6 +51,11 @@ const Header = () => {
             </Button>
             <Button href="/gallery" sx={{ fontSize: 16 }}>
               Gallery
+            </Button>
+            <Button sx={{ fontSize: 16 }}>
+              <Link to="location" smooth={false} offset={-50}>
+                Location
+              </Link>
             </Button>
           </Box>
         </Toolbar>

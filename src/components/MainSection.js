@@ -5,6 +5,7 @@ import Image from "./mainImage.jpg";
 const MainSection = () => {
   return (
     <Container
+      id="main"
       sx={{
         // backgroundColor: "#20124D",
         backgroundImage: `url(${Image})`,

@@ -44,6 +44,7 @@ import StarsIcon from "@mui/icons-material/Stars";
 const MemCard = () => {
   return (
     <Container
+      id="member"
       sx={{
         textAlign: "center",
         justifyContent: "center",

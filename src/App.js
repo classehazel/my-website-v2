@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/membership" element={<Membership />} />
-          <Route path="/program" element={<Program />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/my-website-v2" element={<Home />} />
+          <Route path="/my-website-v2/membership" element={<Membership />} />
+          <Route path="/my-website-v2/program" element={<Program />} />
+          <Route path="/my-website-v2/gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </Router>

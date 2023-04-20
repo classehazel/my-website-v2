@@ -46,7 +46,7 @@ const MainSection = () => {
                 color: "#fff",
               }}
               size="large"
-              href="/membership"
+              href="/my-website-v2/membership"
             >
               Explore
             </Button>
@@ -62,7 +62,7 @@ const MainSection = () => {
                 color: "#fff",
               }}
               size="large"
-              href="/program"
+              href="/my-website-v2/program"
             >
               More Info
             </Button>

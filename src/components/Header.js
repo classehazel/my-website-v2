@@ -4,12 +4,11 @@ import {
   Button,
   ThemeProvider,
   Toolbar,
-  Link,
   createTheme,
 } from "@mui/material";
 import React from "react";
 import FitbitIcon from "@mui/icons-material/Fitbit";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const theme = createTheme({
   palette: {
@@ -36,27 +35,27 @@ const Header = () => {
       >
         <Toolbar>
           <FitbitIcon sx={{ fontSize: 23, color: "#fff" }} />
-          <Button href="/" sx={{ fontSize: 23 }}>
+          <Button href="/my-website-v2" sx={{ fontSize: 23 }}>
             Xercise
           </Button>
 
           <Box marginLeft={"auto"}>
-            <Button href="/" sx={{ fontSize: 16 }}>
+            <Button href="/my-website-v2" sx={{ fontSize: 16 }}>
               Home
             </Button>
-            <Button href="/membership" sx={{ fontSize: 16 }}>
+            <Button href="/my-website-v2/membership" sx={{ fontSize: 16 }}>
               Membership
             </Button>
-            <Button href="/program" sx={{ fontSize: 16 }}>
+            <Button href="/my-website-v2/program" sx={{ fontSize: 16 }}>
               Program
             </Button>
-            <Button href="/gallery" sx={{ fontSize: 16 }}>
+            <Button href="/my-website-v2/gallery" sx={{ fontSize: 16 }}>
               Gallery
             </Button>
             <Button sx={{ fontSize: 16 }}>
-              {/* <Link to="location" smooth={false} offset={-50}> */}
+              <Link to="location" smooth={false} offset={-50}>
                 Location
-              {/* </Link> */}
+              </Link>
             </Button>
           </Box>
         </Toolbar>

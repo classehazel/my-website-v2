@@ -50,7 +50,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/"
+                href="/my-website-v2"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -62,7 +62,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/membership"
+                href="/my-website-v2/membership"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -74,7 +74,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/program"
+                href="/my-website-v2/program"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -86,7 +86,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/gallery"
+                href="/my-website-v2/gallery"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -110,7 +110,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/"
+                href="/my-website-v2"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -122,7 +122,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/"
+                href="/my-website-v2"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -134,7 +134,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/"
+                href="/my-website-v2"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -146,7 +146,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/"
+                href="/my-website-v2"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}
@@ -158,7 +158,7 @@ const Footer = () => {
             <Box>
               <Link
                 variant="subtitle1"
-                href="/"
+                href="/my-website-v2"
                 underline="hover"
                 color={"#fff"}
                 fontSize={14}

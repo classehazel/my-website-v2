@@ -4,11 +4,12 @@ import {
   Button,
   ThemeProvider,
   Toolbar,
+  Link,
   createTheme,
 } from "@mui/material";
 import React from "react";
 import FitbitIcon from "@mui/icons-material/Fitbit";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const theme = createTheme({
   palette: {
@@ -53,9 +54,9 @@ const Header = () => {
               Gallery
             </Button>
             <Button sx={{ fontSize: 16 }}>
-              <Link to="location" smooth={false} offset={-50}>
+              {/* <Link to="location" smooth={false} offset={-50}> */}
                 Location
-              </Link>
+              {/* </Link> */}
             </Button>
           </Box>
         </Toolbar>

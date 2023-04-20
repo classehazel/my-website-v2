@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/my-website-v2" element={<Home />} />
-          <Route path="/my-website-v2/membership" element={<Membership />} />
-          <Route path="/my-website-v2/program" element={<Program />} />
-          <Route path="/my-website-v2/gallery" element={<Gallery />} />
+          <Route path="/my-website-v2" component={<Home />} />
+          <Route path="/my-website-v2/membership" component={<Membership />} />
+          <Route path="/my-website-v2/program" component={<Program />} />
+          <Route path="/my-website-v2/gallery" component={<Gallery />} />
         </Routes>
         <Footer />
       </Router>

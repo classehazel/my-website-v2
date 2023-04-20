@@ -4,22 +4,22 @@ import Home from "./pages/Home";
 import Membership from "./pages/Membership";
 import Program from "./pages/Program";
 import Gallery from "./pages/Gallery";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
+      <Header />
       <Router>
-        <Header />
         <Routes>
-          <Route path="" component={Home} />
-          <Route path="/membership" component={Membership} />
-          <Route path="/program" component={Program} />
-          <Route path="/gallery" component={Gallery} />
+          <Route path="/" element={<Home />} />
+          <Route path="/membership" element={<Membership />} />
+          <Route path="/program" element={<Program />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
-        <Footer />
       </Router>
+      <Footer />
     </>
   );
 }

@@ -35,12 +35,12 @@ const Header = () => {
       >
         <Toolbar>
           <FitbitIcon sx={{ fontSize: 23, color: "#fff" }} />
-          <Button href="" sx={{ fontSize: 23 }}>
+          <Button href="/" sx={{ fontSize: 23 }}>
             Xercise
           </Button>
 
           <Box marginLeft={"auto"}>
-            <Button href="" sx={{ fontSize: 16 }}>
+            <Button href="/" sx={{ fontSize: 16 }}>
               Home
             </Button>
             <Button href="/membership" sx={{ fontSize: 16 }}>
@@ -51,11 +51,6 @@ const Header = () => {
             </Button>
             <Button href="/gallery" sx={{ fontSize: 16 }}>
               Gallery
-            </Button>
-            <Button sx={{ fontSize: 16 }}>
-              <Link to="location" smooth={false} offset={-50}>
-                Location
-              </Link>
             </Button>
           </Box>
         </Toolbar>

@@ -10,16 +10,16 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/membership" element={<Membership />} />
           <Route path="/program" element={<Program />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }

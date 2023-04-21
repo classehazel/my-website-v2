@@ -8,7 +8,6 @@ import {
 } from "@mui/material";
 import React from "react";
 import FitbitIcon from "@mui/icons-material/Fitbit";
-import { Link } from "react-scroll";
 
 const theme = createTheme({
   palette: {

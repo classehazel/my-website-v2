@@ -12,8 +12,9 @@ function App() {
     <>
       <Router>
         <Header />
+        <Home />
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/membership" element={<Membership />} />
           <Route path="/program" element={<Program />} />
           <Route path="/gallery" element={<Gallery />} />
